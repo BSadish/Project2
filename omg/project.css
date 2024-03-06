@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.inner-container{
+    height: 32rem;
+    width: 28rem;
+    margin: 3.2rem;
+    border: 0.1em solid whitesmoke;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(242, 233, 233);
+    margin-bottom: 0;
+    border-radius: 10px;
+}
+#logo{
+    margin: 20px;
+    margin-bottom: 5;
+    height: auto;
+    width: 75px;
+}
+.inner-head span{
+display: block;
+}
+
+#sign{
+    margin-top: -10;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+#use{
+    text-align: center;
+    font-size: 15px;
+}
+
+.email input[type="text"]
+{
+margin-top: 25px;
+    /* margin: 25px; */
+  width: 100%;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    border-color: antiquewhite;
+    border-radius: 5px;
+    font-size:1em ;
+}
+/* .email button{
+    padding: 12px;
+    width: 200px;
+    margin-top: 4px;
+    color: rgb(26, 167, 223);
+    cursor: pointer;
+    font-size: 0.9em;
+    border: none;
+    background-color: white;
+   
+} */
+.email button{
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    color: rgb(30, 30, 228);
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.learnmore{
+    margin: 50px;
+    /* text-align: center; */
+    font-size:13px ;
+    color: #585555;
+    font-weight: 600;
+}
+.learnmore a{
+    text-decoration: none;
+    color: rgb(33, 156, 204);
+    font-size: 0.9;
+    font-weight: 700;
+}
+.buttons{
+  height: 5rem;
+  width: 28rem;
+  display: flex;
+  justify-content: space-around;
+
+
+}
+#create button{
+    text-align: center;
+    padding: 12px;
+    border: none;
+    background-color: transparent;
+    color: #1a73e8;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+#next button{
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    
+}
+.footer-container{
+display: flex;
+margin: 20px;
+height: auto;
+width: 28rem;
+justify-content: space-between;
+flex-direction: co;
+}
+.footer-container a{
+    text-decoration: none;
+    padding: 0.9em;
+    font-size: small;
+    color: #5f6368;
+}
+.footer-container div select{
+    padding: 0px 20px;
+    border-radius: 3px;
+    border: none;
+    color: #5f6368;
+}
